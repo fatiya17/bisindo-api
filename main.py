@@ -6,8 +6,8 @@ from PIL import Image
 import io
 
 # =========================================================================
-URL_MODEL_BISINDO = "https://huggingface.co/elfrumoasa/bisindo-yolo/blob/main/best-bisindo.pt"
-URL_MODEL_KESEHARIAN = "https://huggingface.co/elfrumoasa/bisindo-yolo/blob/main/best-keseharian.pt"
+URL_MODEL_BISINDO = "https://huggingface.co/elfrumoasa/bisindo-yolo/resolve/main/best-bisindo.pt"
+URL_MODEL_KESEHARIAN = "https://huggingface.co/elfrumoasa/bisindo-yolo/resolve/main/best-keseharian.pt"
 # =========================================================================
 
 def download_model(url, filename):
